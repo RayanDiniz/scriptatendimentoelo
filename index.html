@@ -7,70 +7,10 @@
   <meta http-equiv="refresh" content="300" />
   <title>Script de Atendimento ao Cliente</title>
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css">
-  <style>
-    body {
-      font-family: Arial, sans-serif;
-      margin: 20px;
-    }
-
-    .main {
-      padding: 2em;
-    }
-
-    h1 {
-      color: #333;
-    }
-
-    .section {
-      margin-bottom: 20px;
-    }
-
-    .section h2 {
-      color: #555;
-    }
-
-    .section div {
-      margin-bottom: 10px;
-    }
-
-    .section p {
-      width: 400px;
-      background-color: azure;
-      color: #333;
-      font-family: 'Courier New', Courier, monospace;
-      display: inline-block;
-      margin: 5px 0;
-      border: solid 1px #333;
-      border-radius: 0.5em;
-      padding: 10px;
-    }
-
-    .copy-btn {
-      margin-left: 10px;
-      padding: 5px 10px;
-      background-color: #48a7ff;
-      color: white;
-      border: none;
-      border-radius: 5px;
-      cursor: pointer;
-    }
-
-    .copy-btn:hover {
-      padding: 7px 12px;
-      background-color: #76bdff;
-    }
-
-    .copy-btn:active {
-      padding: 4px 9px;
-      background-color: #1e5486;
-    }
-  </style>
+  <link rel="stylesheet" href="./src/assets/styles/global.css">
 </head>
 
 <body>
-
-  <div id="exemplo"></div>
-
   <div class="main">
     <h1>Script de Atendimento ao Cliente</h1>
     <div class="section">
@@ -566,34 +506,9 @@
         possível.</p>
       <button class="copy-btn" onclick="copyText('text62')"><i class="fa-regular fa-copy"></i></button>
     </div>
-
   </div>
 
-  <script language=javascript type="text/javascript">
-    function copyText(elementId) {
-      var text = document.getElementById(elementId).innerText;
-      navigator.clipboard.writeText(text).then(function () {
-
-      }, function (err) {
-        alert("Erro ao copiar texto: " + err);
-      })
-    }
-
-    now = new Date
-    let mensagem
-    if (now.getHours() >= 0 && now.getHours() < 12) {
-      mensagem = "Bom dia"
-    } else if (now.getHours() >= 12 && now.getHours() < 18) {
-      mensagem = "Boa tarde"
-    } else if (now.getHours() >= 18 && now.getHours() < 23) {
-      mensagem = "Boa noite"
-    }
-
-    for (let i = 0; i < 50; i++) {
-      let idnumber = i + 1
-      document.getElementById("cumprimento" + idnumber).innerText = mensagem
-    }
-  </script>
+  <script src="./src/App.js"></script>
 
 </body>
 

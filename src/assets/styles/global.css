@@ -1,0 +1,59 @@
+body {
+  font-family: Arial, sans-serif;
+  margin: 20px;
+  background-image: url("../image/fundo.png");
+  background-size: cover;
+  background-attachment: fixed;
+}
+
+.main {
+  padding: 2em;
+}
+
+h1 {
+  color: #333;
+}
+
+.section {
+  margin-bottom: 20px;
+}
+
+.section h2 {
+  color: #555;
+}
+
+.section div {
+  margin-bottom: 10px;
+}
+
+.section p {
+  width: 400px;
+  background-color: azure;
+  color: #333;
+  font-family: 'Courier New', Courier, monospace;
+  display: inline-block;
+  margin: 5px 0;
+  border: solid 1px #333;
+  border-radius: 0.5em;
+  padding: 10px;
+}
+
+.copy-btn {
+  margin-left: 10px;
+  padding: 5px 10px;
+  background-color: #48a7ff;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.copy-btn:hover {
+  padding: 7px 12px;
+  background-color: #76bdff;
+}
+
+.copy-btn:active {
+  padding: 4px 9px;
+  background-color: #1e5486;
+}
