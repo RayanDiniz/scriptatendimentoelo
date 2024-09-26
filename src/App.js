@@ -1,10 +1,6 @@
 function copyText(elementId) {
   var text = document.getElementById(elementId).innerText;
-  navigator.clipboard.writeText(text).then(function () {
-
-  }, function (err) {
-    alert("Erro ao copiar texto: " + err);
-  })
+  navigator.clipboard.writeText(text).then
 }
 
 now = new Date

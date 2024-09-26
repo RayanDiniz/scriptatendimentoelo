@@ -6,8 +6,25 @@ body {
   background-attachment: fixed;
 }
 
+.menu-sup {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  height: 50px;
+  background-color: #48a7ff;
+  text-align: center;
+  color: aliceblue;
+}.menu-sup h1 {
+  margin: 5px;
+  color: #fff;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+
 .main {
   padding: 2em;
+  padding-top: 65px;
 }
 
 h1 {
