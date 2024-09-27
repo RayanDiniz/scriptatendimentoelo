@@ -21,6 +21,12 @@ body {
   font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 }
 
+.scrollTop {
+  background-color: #003e79;
+  color: #fff;
+  border-radius: 20px;
+}
+
 
 .main {
   padding: 2em;
