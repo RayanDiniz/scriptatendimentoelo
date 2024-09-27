@@ -1,3 +1,16 @@
+const topo = () => {
+  window.scrollTo({
+    top: 0,
+    behavior: 'smooth'
+  })
+}
+const base = () => {
+  window.scrollTo({
+    top: 1000000,
+    behavior: 'smooth'
+  })
+}
+
 const copyText = (elementId) => {
   var text = document.getElementById(elementId).innerText;
   navigator.clipboard.writeText(text).then
@@ -16,11 +29,4 @@ if (now.getHours() >= 0 && now.getHours() < 12) {
 for (let i = 0; i < 50; i++) {
   let idnumber = i + 1
   document.getElementById("cumprimento" + idnumber).innerText = mensagem
-}
-
-const scrollTop = () => {
-  window.scrollTo({
-    top: 0,
-    behavior: 'smooth'
-  })
 }

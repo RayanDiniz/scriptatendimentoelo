@@ -21,10 +21,18 @@ body {
   font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 }
 
-.scrollTop {
-  background-color: #003e79;
+.scroll {
+  position: fixed;
+  bottom: 0;
+  right: 5%;
+}.scroll button {
+  margin: 5px;
   color: #fff;
+  border: none;
   border-radius: 20px;
+  background-color: #48a7ff;
+  text-decoration: none;
+  font-size: x-large;
 }
 
 
