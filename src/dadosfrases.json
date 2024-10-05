@@ -1,0 +1,227 @@
+{
+  "tipoTexto": "Atendimento Suporte",
+  "empresa": "Elo SVA",
+  "ano": 2024,
+  "active": true,
+  "frases": [
+    {
+      "titulo": "Saudação Inicial",
+      "autor": "Rayan Diniz",
+      "textos": [
+        "{cumprimento}! Falo do suporte técnico da Elo Fiber e me chamo Rayan. Tudobem? Como posso lhe ajudar",
+        "Aguarde um momento que irei verificar.",
+        "Um momento."
+      ]
+    },
+    {
+      "titulo": "Solicitação de CPF ou CNPJ",
+      "autor": "Rayan Diniz",
+      "textos": [
+        "Por gentileza, forneça o CPF ou CNPJ do assinante."
+      ]
+    },
+    {
+      "titulo": "Faturas em Aberto",
+      "autor": "Rayan Diniz",
+      "textos": [
+        "Existe faturas em aberto no seu cadastro que estão suspendendo sua conexão. Para mais informações, por favor, entre em contato com o setor financeiro, que opera de segunda a sexta-feira, das 8h às 18h, e aos sábados até 12h."
+      ]
+    },
+    {
+      "titulo": "",
+      "autor": "",
+      "textos": [
+        ""
+      ]
+    },
+    {
+      "titulo": "",
+      "autor": "",
+      "textos": [
+        ""
+      ]
+    },
+    {
+      "titulo": "",
+      "autor": "",
+      "textos": [
+        ""
+      ]
+    },
+    {
+      "titulo": "",
+      "autor": "",
+      "textos": [
+        ""
+      ]
+    },
+    {
+      "titulo": "",
+      "autor": "",
+      "textos": [
+        ""
+      ]
+    },
+    {
+      "titulo": "",
+      "autor": "",
+      "textos": [
+        ""
+      ]
+    },
+    {
+      "titulo": "",
+      "autor": "",
+      "textos": [
+        ""
+      ]
+    },
+    {
+      "titulo": "",
+      "autor": "",
+      "textos": [
+        ""
+      ]
+    },
+    {
+      "titulo": "",
+      "autor": "",
+      "textos": [
+        ""
+      ]
+    },
+    {
+      "titulo": "",
+      "autor": "",
+      "textos": [
+        ""
+      ]
+    },
+    {
+      "titulo": "",
+      "autor": "",
+      "textos": [
+        ""
+      ]
+    },
+    {
+      "titulo": "",
+      "autor": "",
+      "textos": [
+        ""
+      ]
+    },
+    {
+      "titulo": "",
+      "autor": "",
+      "textos": [
+        ""
+      ]
+    },
+    {
+      "titulo": "",
+      "autor": "",
+      "textos": [
+        ""
+      ]
+    },
+    {
+      "titulo": "",
+      "autor": "",
+      "textos": [
+        ""
+      ]
+    },
+    {
+      "titulo": "",
+      "autor": "",
+      "textos": [
+        ""
+      ]
+    },
+    {
+      "titulo": "",
+      "autor": "",
+      "textos": [
+        ""
+      ]
+    },
+    {
+      "titulo": "",
+      "autor": "",
+      "textos": [
+        ""
+      ]
+    },
+    {
+      "titulo": "",
+      "autor": "",
+      "textos": [
+        ""
+      ]
+    },
+    {
+      "titulo": "",
+      "autor": "",
+      "textos": [
+        ""
+      ]
+    },
+    {
+      "titulo": "",
+      "autor": "",
+      "textos": [
+        ""
+      ]
+    },
+    {
+      "titulo": "",
+      "autor": "",
+      "textos": [
+        ""
+      ]
+    },
+    {
+      "titulo": "",
+      "autor": "",
+      "textos": [
+        ""
+      ]
+    },
+    {
+      "titulo": "",
+      "autor": "",
+      "textos": [
+        ""
+      ]
+    },
+    {
+      "titulo": "",
+      "autor": "",
+      "textos": [
+        ""
+      ]
+    },
+    {
+      "titulo": "",
+      "autor": "",
+      "textos": [
+        ""
+      ]
+    },
+    {
+      "titulo": "",
+      "autor": "",
+      "textos": [
+        ""
+      ]
+    },
+    {
+      "titulo": "",
+      "autor": "",
+      "textos": [
+        ""
+      ]
+    }
+  ]
+}

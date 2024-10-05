@@ -45,19 +45,19 @@ h1 {
   color: #333;
 }
 
-.section {
+.myDivSection {
   margin-bottom: 20px;
 }
 
-.section h2 {
+.myDivSection h2 {
   color: #555;
 }
 
-.section div {
+.myDivSection div {
   margin-bottom: 10px;
 }
 
-.section p {
+.myDivSection p {
   width: 400px;
   background-color: azure;
   color: #333;
