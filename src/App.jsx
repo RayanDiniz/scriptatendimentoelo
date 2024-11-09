@@ -44,7 +44,7 @@ function App() {
 
   // Função para copiar texto para a área de transferência
   const copiaTexto = (texto) => {
-    navigator.clipboard.writeText(texto).then(() => alert('Texto copiado!'));
+    navigator.clipboard.writeText(texto).then();
   };
 
   return (
