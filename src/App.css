@@ -1,0 +1,128 @@
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+body {
+  font-family: Arial, sans-serif;
+  background-image: url("./assets/images/fundo.png");
+  margin: 20px;
+  background-size: cover;
+  background-attachment: fixed;
+}
+
+.menu-sup {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  height: 50px;
+  background-color: #48a7ff;
+  text-align: center;
+  color: aliceblue;
+}
+
+.menu-sup h1 {
+  margin: 5px;
+  color: #fff;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.scroll {
+  position: fixed;
+  bottom: 0;
+  right: 5%;
+}
+
+.scroll button {
+  margin: 5px;
+  padding: 5px;
+  color: #fff;
+  border: none;
+  border-radius: 20%;
+  background-color: #48a7ff;
+  text-decoration: none;
+  font-size: x-large;
+}
+
+
+.main {
+  padding: 2em;
+  padding-top: 65px;
+}
+
+h1 {
+  color: #333;
+}
+
+.myDivSection {
+  margin-bottom: 20px;
+}
+
+.myDivSection h2 {
+  color: #555;
+}
+
+.myDivSection div {
+  margin-bottom: 10px;
+}
+
+.myDivSection p {
+  width: 400px;
+  background-color: azure;
+  color: #333;
+  font-family: 'Courier New', Courier, monospace;
+  display: inline-block;
+  margin: 5px 0;
+  border: solid 1px #333;
+  border-radius: 0.5em;
+  padding: 10px;
+}
+
+.copy-btn {
+  margin-left: 10px;
+  padding: 5px 10px;
+  background-color: #48a7ff;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.copy-btn:hover {
+  padding: 7px 12px;
+  background-color: #76bdff;
+}
+
+.copy-btn:active {
+  padding: 4px 9px;
+  background-color: #1e5486;
+}
+
+
+#nomeContainer {
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.nomeform {
+  width: 320px;
+  padding: 1em;
+  border: #333 solid 2px;
+}

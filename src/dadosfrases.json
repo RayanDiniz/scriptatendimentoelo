@@ -5,222 +5,79 @@
   "active": true,
   "frases": [
     {
-      "titulo": "Saudação Inicial",
+      "titulo": "Saudação Padrão",
       "autor": "Rayan Diniz",
       "textos": [
-        "{cumprimento}! Falo do suporte técnico da Elo Fiber e me chamo Rayan. Tudobem? Como posso lhe ajudar",
+        "{cumprimento}! Falo do suporte técnico da Elo Fiber e me chamo {nome}. Tudo bem? Como posso lhe ajudar?",
         "Aguarde um momento que irei verificar.",
-        "Um momento."
+        "Um momento, por favor."
       ]
     },
     {
-      "titulo": "Solicitação de CPF ou CNPJ",
+      "titulo": "Identificação e Solicitação de Informações",
       "autor": "Rayan Diniz",
       "textos": [
-        "Por gentileza, forneça o CPF ou CNPJ do assinante."
+        "Por gentileza, forneça o CPF ou CNPJ do assinante.",
+        "Pode me confirmar o endereço completo do assinante?",
+        "Por favor, informe um número de telefone para contato."
       ]
     },
     {
-      "titulo": "Faturas em Aberto",
+      "titulo": "Resolução de Problemas Técnicos",
       "autor": "Rayan Diniz",
       "textos": [
-        "Existe faturas em aberto no seu cadastro que estão suspendendo sua conexão. Para mais informações, por favor, entre em contato com o setor financeiro, que opera de segunda a sexta-feira, das 8h às 18h, e aos sábados até 12h."
+        "Você já tentou reiniciar seu modem? Isso costuma resolver muitos problemas de conexão.",
+        "Vou precisar que você desconecte e reconecte todos os cabos para verificarmos a conexão.",
+        "Ok! De acordo com as verificações, o fornecimento está normal. Pode haver instabilidade na qualidade do sinal Wi-Fi. Podemos fazer alguns procedimentos para melhorar?"
       ]
     },
     {
-      "titulo": "",
-      "autor": "",
+      "titulo": "Financeiro e Faturas",
+      "autor": "Rayan Diniz",
       "textos": [
-        ""
+        "Existe uma fatura em aberto que está causando a suspensão do serviço. Para mais informações, entre em contato com o setor financeiro, que opera de segunda a sexta-feira, das 8h às 18h, e aos sábados até 12h.",
+        "Caso precise de uma segunda via da fatura, posso enviar por aqui mesmo? As faturas também estão disponíveis no nosso portal online.",
+        "Consigo liberar sua internet temporariamente mediante o envio do comprovante de pagamento. Para negociação, entre em contato diretamente com o setor financeiro."
       ]
     },
     {
-      "titulo": "",
-      "autor": "",
+      "titulo": "Transferência e Encerramento",
+      "autor": "Rayan Diniz",
       "textos": [
-        ""
+        "Você está no suporte técnico. Por favor, aguarde enquanto transfiro seu atendimento para o setor responsável.",
+        "Agradeço pelo seu contato e atenção. Estamos sempre à disposição para ajudar. Não deixe de nos avaliar! Tenha um ótimo dia!",
+        "Passadas as informações, posso ajudar em algo mais?"
       ]
     },
     {
-      "titulo": "",
-      "autor": "",
+      "titulo": "Scripts para Situações Específicas",
+      "autor": "Rayan Diniz",
       "textos": [
-        ""
+        "Lamento que queira cancelar a sua parceria com a Elo Fiber. Pode me dar mais detalhes para que possamos melhorar no futuro?",
+        "Entendemos sua decisão. Vou encaminhar seu pedido de cancelamento. Qualquer dúvida, pode nos contatar.",
+        "{cumprimento}! Houve um pequeno incidente na nossa rede, mas já estamos resolvendo. Peço desculpas pelo transtorno.",
+        "{cumprimento}! O setor comercial ainda não está disponível. Assim que estiver, eu lhe transfiro. Tem algo que eu possa ajudar?",
+        "{cumprimento}! O setor comercial encerrou o expediente ao meio-dia e só retorna na segunda pela manhã. Você está no suporte técnico. Tem algo que eu possa ajudar?",
+        "Estamos com um problema na rede e com um alto fluxo de atendimento. Assim que possível, estarei lhe atendendo.",
+        "No momento, estamos sem previsão para o reparo, mas nossa equipe está trabalhando para resolver o mais rápido possível."
       ]
     },
     {
-      "titulo": "",
-      "autor": "",
+      "titulo": "Informações Técnicas e Ajustes",
+      "autor": "Rayan Diniz",
       "textos": [
-        ""
+        "O link de internet está funcionando normalmente e seu plano é um residencial de 500 Mbps. Aconselho verificar o roteador, pois muitos dispositivos conectados podem causar lentidão.",
+        "Não identifiquei problemas no seu link de internet. Seu modem de fibra está funcionando normalmente. Verifique o dispositivo ou serviço que está tentando conectar.",
+        "Realizei alguns ajustes em seu roteador. Por favor, reinicie o equipamento, tirando-o da tomada e recolocando após 2 minutos."
       ]
     },
     {
-      "titulo": "",
-      "autor": "",
+      "titulo": "Solicitações Adicionais e Encerramento com Agradecimento",
+      "autor": "Rayan Diniz",
       "textos": [
-        ""
-      ]
-    },
-    {
-      "titulo": "",
-      "autor": "",
-      "textos": [
-        ""
-      ]
-    },
-    {
-      "titulo": "",
-      "autor": "",
-      "textos": [
-        ""
-      ]
-    },
-    {
-      "titulo": "",
-      "autor": "",
-      "textos": [
-        ""
-      ]
-    },
-    {
-      "titulo": "",
-      "autor": "",
-      "textos": [
-        ""
-      ]
-    },
-    {
-      "titulo": "",
-      "autor": "",
-      "textos": [
-        ""
-      ]
-    },
-    {
-      "titulo": "",
-      "autor": "",
-      "textos": [
-        ""
-      ]
-    },
-    {
-      "titulo": "",
-      "autor": "",
-      "textos": [
-        ""
-      ]
-    },
-    {
-      "titulo": "",
-      "autor": "",
-      "textos": [
-        ""
-      ]
-    },
-    {
-      "titulo": "",
-      "autor": "",
-      "textos": [
-        ""
-      ]
-    },
-    {
-      "titulo": "",
-      "autor": "",
-      "textos": [
-        ""
-      ]
-    },
-    {
-      "titulo": "",
-      "autor": "",
-      "textos": [
-        ""
-      ]
-    },
-    {
-      "titulo": "",
-      "autor": "",
-      "textos": [
-        ""
-      ]
-    },
-    {
-      "titulo": "",
-      "autor": "",
-      "textos": [
-        ""
-      ]
-    },
-    {
-      "titulo": "",
-      "autor": "",
-      "textos": [
-        ""
-      ]
-    },
-    {
-      "titulo": "",
-      "autor": "",
-      "textos": [
-        ""
-      ]
-    },
-    {
-      "titulo": "",
-      "autor": "",
-      "textos": [
-        ""
-      ]
-    },
-    {
-      "titulo": "",
-      "autor": "",
-      "textos": [
-        ""
-      ]
-    },
-    {
-      "titulo": "",
-      "autor": "",
-      "textos": [
-        ""
-      ]
-    },
-    {
-      "titulo": "",
-      "autor": "",
-      "textos": [
-        ""
-      ]
-    },
-    {
-      "titulo": "",
-      "autor": "",
-      "textos": [
-        ""
-      ]
-    },
-    {
-      "titulo": "",
-      "autor": "",
-      "textos": [
-        ""
-      ]
-    },
-    {
-      "titulo": "",
-      "autor": "",
-      "textos": [
-        ""
-      ]
-    },
-    {
-      "titulo": "",
-      "autor": "",
-      "textos": [
-        ""
+        "Por nada, agradeço também pelo seu contato e atenção. Estamos sempre à disposição para ajudar com qualquer dúvida ou problema técnico. Não esqueça de avaliar o nosso atendimento. Tenha um ótimo dia! 🤝",
+        "Lembrando que a segunda via de boletos e outras informações estão disponíveis também em nosso aplicativo.\nPlay Store (Android): https://play.google.com/store/apps/details?id=br.com.gerenet.app.elo&hl=pt_BR \nApp Store (iOS): https://apps.apple.com/us/app/elo-internet/id1534951958 \nOu ainda através do Portal do Cliente: https://gerenet.elointernet.com.br/sac2/",
+        "Me mande a localização fixa pelo compartilhamento do WhatsApp: clique no ícone de clipe na barra de mensagens, selecione 'Localização' e depois 'Localização atual'."
       ]
     }
   ]

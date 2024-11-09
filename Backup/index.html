@@ -20,14 +20,25 @@
       </ul>
     </nav>-->
   </header>
- 
+
+  <!-- Tela de entrada de nome -->
+   
+  <div id="nomeContainer">
+    <div class="nomeform">
+      <label for="nome">Digite seu nome:</label>
+      <input type="text" id="nome" placeholder="Seu nome">
+      <button onclick="salvarNome()">Confirmar</button>
+    </div>
+  </div>
+
   <div class="scroll">
     <button onclick="irTopo()"><i class="fa-solid fa-arrow-up"></i></button>
     <button onclick="irBase()"><i class="fa-solid fa-arrow-down"></i></button>
   </div>
-  
-  <section></section>
-  <script src="./src/App.js"></script>
+
+  <!-- Seção onde as frases serão exibidas -->
+  <section id="conteudoSection" style="display: none;"></section>
+  <script src="teste.js"></script>
 
 </body>
 

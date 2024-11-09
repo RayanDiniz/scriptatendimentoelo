@@ -1,7 +1,7 @@
 body {
   font-family: Arial, sans-serif;
-  margin: 20px;
   background-image: url("../image/fundo.png");
+  margin: 20px;
   background-size: cover;
   background-attachment: fixed;
 }
@@ -15,7 +15,9 @@ body {
   background-color: #48a7ff;
   text-align: center;
   color: aliceblue;
-}.menu-sup h1 {
+}
+
+.menu-sup h1 {
   margin: 5px;
   color: #fff;
   font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
@@ -25,7 +27,9 @@ body {
   position: fixed;
   bottom: 0;
   right: 5%;
-}.scroll button {
+}
+
+.scroll button {
   margin: 5px;
   color: #fff;
   border: none;
@@ -87,4 +91,22 @@ h1 {
 .copy-btn:active {
   padding: 4px 9px;
   background-color: #1e5486;
+}
+
+
+#nomeContainer {
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.nomeform {
+  width: 320px;
+  padding: 1em;
+  border: #333 solid 2px;
 }

@@ -1,0 +1,154 @@
+{
+  "tipoTexto": "Atendimento Suporte",
+  "empresa": "Elo SVA",
+  "ano": 2024,
+  "active": true,
+  "frases": [
+    {
+      "titulo": "Saudação Inicial",
+      "autor": "Rayan Diniz",
+      "textos": [
+        "{cumprimento}! Falo do suporte técnico da Elo Fiber e me chamo {nome}. Tudobem? Como posso lhe ajudar",
+        "Aguarde um momento que irei verificar.",
+        "Um momento."
+      ]
+    },
+    {
+      "titulo": "Solicitação de CPF ou CNPJ",
+      "autor": "Rayan Diniz",
+      "textos": [
+        "Por gentileza, forneça o CPF ou CNPJ do assinante."
+      ]
+    },
+    {
+      "titulo": "Faturas em Aberto",
+      "autor": "Rayan Diniz",
+      "textos": [
+        "Existe faturas em aberto no seu cadastro que estão suspendendo sua conexão. Para mais informações, por favor, entre em contato com o setor financeiro, que opera de segunda a sexta-feira, das 8h às 18h, e aos sábados até 12h."
+      ]
+    },
+    {
+      "titulo": "Confirmação de Dados",
+      "textos": [
+        "Pode me confirmar o endereço completo do assinante?",
+        "Por favor, informe um número de telefone para contato."
+      ]
+    },
+    {
+      "titulo": "Orientação sobre Pagamento",
+      "textos": [
+        "Caso precise de uma segunda via da fatura, posso enviar por e-mail ou SMS?",
+        "Lembre-se de que as faturas também estão disponíveis no nosso portal online."
+      ]
+    },
+    {
+      "titulo": "Informações Técnicas",
+      "textos": [
+        "Você já tentou reiniciar seu modem? Isso costuma resolver muitos problemas de conexão.",
+        "Vou precisar que você desconecte e reconecte todos os cabos para a gente verificar."
+      ]
+    },
+    {
+      "titulo": "Setor Comercial Indisponível",
+      "textos": [
+        "{cumprimento}! Falo do suporte técnico. O setor comercial ainda não está disponível. Assim que estiver, eu lhe transfiro. Tem algo que eu possa ajudar?"
+      ]
+    },
+    {
+      "titulo": "Sistema Fora do Ar",
+      "textos": [
+        "{cumprimento}! Estávamos com nosso sistema fora do ar, o que causou uma alta demanda de atendimento. Peço desculpas em nome da Elo pela demora. Como posso ajudá-lo?"
+      ]
+    },
+    {
+      "titulo": "Continuação do Atendimento",
+      "textos": [
+        "{cumprimento}! Continuarei seu atendimento agora. Como posso ajudá-lo?"
+      ]
+    },
+    {
+      "titulo": "Transferência para Setor Responsável",
+      "textos": [
+        "Você está no suporte técnico. Por favor, aguarde um momento enquanto transfiro seu atendimento para o setor responsável."
+      ]
+    },
+    {
+      "titulo": "Setor Comercial Encerrado",
+      "textos": [
+        "{cumprimento}! O setor comercial encerrou o expediente ao meio-dia e só retorna na segunda pela manhã. Você está no suporte técnico. Tem algo que eu possa ajudar?"
+      ]
+    },
+    {
+      "titulo": "Alta Demanda de Atendimento",
+      "textos": [
+        "Desculpe a demora, estamos com uma alta demanda de atendimento. Aguarde um momento, por favor, que irei verificar."
+      ]
+    },
+    {
+      "titulo": "Encerramento do Atendimento",
+      "textos": [
+        "Passadas as informações, posso ajudar em algo mais?"
+      ]
+    },
+    {
+      "titulo": "Informação sobre Conexão e Plano",
+      "textos": [
+        "Gostaria de informar que o link de internet está funcionando normalmente e que seu plano é um residencial de 500 Mbps. Para distribuir a rede no local, instalamos um roteador. No entanto, como a empresa possui muitos dispositivos conectando-se à rede Wi-Fi rotativamente, isso está causando lentidão. O roteador tem um limite de dispositivos que pode suportar e a banda pode ficar fragmentada devido a essa alta demanda."
+      ]
+    },
+    {
+      "titulo": "Verificação de Dispositivo ou Serviço",
+      "textos": [
+        "Não identifiquei nenhum problema com seu link de internet, seu modem de fibra está funcionando normalmente. Peço que verifique o dispositivo ou o serviço que está tentando conectar."
+      ]
+    },
+    {
+      "titulo": "Reinicialização do Equipamento",
+      "textos": [
+        "Não identifiquei nenhum problema com seu link de internet, seu modem de fibra está funcionando normalmente. Peço que reinicie seu equipamento, tirando-o da tomada e recolocando-o após cerca de 2 minutos para troca de canal na rede Wi-Fi."
+      ]
+    },
+    {
+      "titulo": "Ajustes no Roteador",
+      "textos": [
+        "Não identifiquei nenhum problema com seu link de internet, seu modem de fibra está funcionando normalmente. Verifique o dispositivo ou o serviço que está tentando conectar. Realizei alguns ajustes em seu roteador, peço que reinicie seu equipamento, tirando-o da tomada e recolocando-o após cerca de 2 minutos para troca de canal na rede Wi-Fi."
+      ]
+    },
+    {
+      "titulo": "Questões Financeiras",
+      "textos": [
+        "Atualmente, a questão está sendo atendida pelo suporte técnico. Recomenda-se abordar este assunto com o setor financeiro, que opera de segunda a sexta-feira, das 8h às 18h, e aos sábados até 12h. Um chamado foi aberto para dar baixa na fatura e sua conexão foi liberada por 24h. O setor financeiro examinará seu comprovante assim que disponível. Sua conexão já foi liberada."
+      ]
+    },
+    {
+      "titulo": "Envio de Faturas e Liberação Temporária",
+      "textos": [
+        "No momento, você está no suporte técnico. Consigo apenas lhe enviar as faturas e liberar sua internet temporariamente mediante ao envio do comprovante de pagamento. Para negociação, peço que entre em contato diretamente com o setor financeiro, que funciona de segunda a sexta das 8h às 18h e nos sábados das 8h às 12h."
+      ]
+    },
+    {
+      "titulo": "Problema na Rede",
+      "textos": [
+        "Identificamos um problema em nossa rede. Aguarde um momento, por favor, que retorno com mais informações."
+      ]
+    },
+    {
+      "titulo": "Alta Demanda e Problema na Rede",
+      "textos": [
+        "Estamos com um problema na rede no momento e com um alto fluxo de atendimento. Assim que possível, estarei lhe atendendo."
+      ]
+    },
+    {
+      "titulo": "Transferência para o Setor Financeiro",
+      "textos": [
+        "Irei lhe transferir para o setor financeiro."
+      ]
+    },
+    {
+      "titulo": "Setor Financeiro Fora do Expediente",
+      "textos": [
+        "O setor financeiro está fora do expediente de trabalho. Você está no suporte técnico neste momento. Caso envie o comprovante, podemos liberar sua conexão temporariamente até o retorno do financeiro."
+      ]
+    }
+  ]
+}
