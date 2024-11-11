@@ -8,7 +8,7 @@
       "titulo": "Saudação Padrão",
       "autor": "Rayan Diniz",
       "textos": [
-        "{cumprimento}, {{NAME}} ! Sou o {nome} do suporte técnico da Elo Fiber. Em que posso ajudar você hoje?",
+        "{{SALUTATION}}, {{NAME}} ! Sou o {{AGENT}} do suporte técnico da Elo Fiber. Em que posso ajudar você hoje?",
         "Aguarde um momento que irei verificar.",
         "Um momento, por favor."
       ]
@@ -17,7 +17,7 @@
       "titulo": "Identificação e Solicitação de Informações",
       "autor": "Rayan Diniz",
       "textos": [
-        "Claro, nome_cliente ! Vou verificar isso para você. Pode me passar, por favor, o CPF ou CNPJ do assinante?",
+        "Claro, {{NAME}} ! Vou verificar isso para você. Pode me passar, por favor, o CPF ou CNPJ do assinante?",
         "Pode me confirmar o endereço completo do assinante?",
         "Por favor, informe um número de telefone para contato."
       ]
