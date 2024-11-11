@@ -79,6 +79,14 @@
         "Lembrando que a segunda via de boletos e outras informações estão disponíveis também em nosso aplicativo.\nPlay Store (Android): https://play.google.com/store/apps/details?id=br.com.gerenet.app.elo&hl=pt_BR \nApp Store (iOS): https://apps.apple.com/us/app/elo-internet/id1534951958 \nOu ainda através do Portal do Cliente: https://gerenet.elointernet.com.br/sac2/",
         "Me mande a localização fixa pelo compartilhamento do WhatsApp: clique no ícone de clipe na barra de mensagens, selecione 'Localização' e depois 'Localização atual'."
       ]
+    },
+    {
+      "titulo": "Procedimentos LOS",
+      "autor": "Rayan Diniz",
+      "textos": [
+        "Será necessário enviar uma equipe técnica para realizar o reparo. Quando o LED LOS pisca em vermelho, isso indica uma perda de comunicação com a fibra. As principais causas são: um conector verde mal conectado ou um dano na fibra, que pode ser interno (dentro da residência) ou externo (na rua).",
+        "Irei abrir um chamado pra envio técnico e encaminhar para a coordenação das equipe para agendar sua visita. Aguarde que assim que obtivermos mais informação a respeito do agendamento da ida ada equipe, questão de data e horário lhe informarei."
+      ]
     }
   ]
 }
