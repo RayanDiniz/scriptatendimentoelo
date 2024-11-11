@@ -8,7 +8,7 @@
       "titulo": "Saudação Padrão",
       "autor": "Rayan Diniz",
       "textos": [
-        "{cumprimento}, nome_cliente ! Sou o {nome} do suporte técnico da Elo Fiber. Em que posso ajudar você hoje?",
+        "{cumprimento}, {{NAME}} ! Sou o {nome} do suporte técnico da Elo Fiber. Em que posso ajudar você hoje?",
         "Aguarde um momento que irei verificar.",
         "Um momento, por favor."
       ]
