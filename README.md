@@ -1,8 +1,8 @@
-# Getting Started with Create React App
+# Sistema de script de atendimento da Elo Fiber
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+Esse projeto é uma sistema para auxiliar e melhorar o atendimento ao cliente por chat da Elo Fiber.
 
-## Available Scripts
+## Funcionamento do App feito com React
 
 In the project directory, you can run:
 
