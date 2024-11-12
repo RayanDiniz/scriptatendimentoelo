@@ -15,7 +15,7 @@ function AdicionarFrase() {
       const novaFrase = { 
         titulo, 
         autor, 
-        textos: [texto] // Passa 'texto' como um array de strings
+        textos: texto.split(';').map(text => text.trim()) // Passa 'texto' como um array de strings
       };
       await axios.post('https://scriptatendimentoelo.onrender.com/api/frases', novaFrase);
       setMensagem('Frase adicionada com sucesso!');
@@ -53,7 +53,7 @@ function AdicionarFrase() {
         </div>
         <div>
           <label>Texto da Frase:</label>
-          <input
+          <textarea
             type="text"
             value={texto}
             onChange={(e) => setTexto(e.target.value)}
