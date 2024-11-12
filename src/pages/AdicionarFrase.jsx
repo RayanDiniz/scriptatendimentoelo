@@ -11,7 +11,7 @@ function AdicionarFrase() {
 
     try {
       const novaFrase = { texto, autor };
-      await axios.post('http://localhost:5000/api/frases', novaFrase);
+      await axios.post('https://scriptatendimentoelo.onrender.com/api/frases', novaFrase);
       setMensagem('Frase adicionada com sucesso!');
       setTexto(''); // Limpar o campo texto
       setAutor(''); // Limpar o campo autor

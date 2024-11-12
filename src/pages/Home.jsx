@@ -18,7 +18,7 @@ function Home() {
   useEffect(() => {
     const fetchFrases = async () => {
       try {
-        const response = await axios.get('http://localhost:5000/api/frases');
+        const response = await axios.get('https://scriptatendimentoelo.onrender.com/api/frases');
         setConteudo(response.data);
       } catch (error) {
         console.error('Erro ao buscar frases da API:', error);
