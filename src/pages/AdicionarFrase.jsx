@@ -11,12 +11,19 @@ function AdicionarFrase() {
     e.preventDefault();
 
     try {
-      const novaFrase = { texto, autor };
+      // Transforme 'texto' em um array, como esperado pelo modelo
+      const novaFrase = { 
+        titulo, 
+        autor, 
+        textos: [texto] // Passa 'texto' como um array de strings
+      };
       await axios.post('https://scriptatendimentoelo.onrender.com/api/frases', novaFrase);
       setMensagem('Frase adicionada com sucesso!');
-      setTitulo(''); // Limpar o campo titulo
-      setAutor(''); // Limpar o campo autor
-      setTexto(''); // Limpar o campo texto
+      
+      // Limpar os campos após o envio
+      setTitulo('');
+      setAutor('');
+      setTexto('');
     } catch (error) {
       setMensagem('Erro ao adicionar frase.');
       console.error('Erro ao adicionar frase:', error);
@@ -33,6 +40,7 @@ function AdicionarFrase() {
             type="text"
             value={titulo}
             onChange={(e) => setTitulo(e.target.value)}
+            required
           />
         </div>
         <div>

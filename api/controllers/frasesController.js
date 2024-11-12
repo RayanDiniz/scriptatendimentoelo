@@ -12,7 +12,7 @@ exports.getFrases = async (req, res) => {
       ano: 2024,
       active: true,
       frases: frases.map(frase => ({
-        id: frase.id,
+        id: frase._id,
         titulo: frase.titulo,
         autor: frase.autor,
         textos: frase.textos

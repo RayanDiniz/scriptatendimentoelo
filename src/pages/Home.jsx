@@ -1,6 +1,7 @@
 import React, { useState, useEffect } from 'react';
 import axios from 'axios';
 import Rolagem from '../components/Rolagem';
+import { FaCopy } from "react-icons/fa6";
 
 function Home() {
   const [conteudo, setConteudo] = useState([]);
@@ -19,7 +20,7 @@ function Home() {
     const fetchFrases = async () => {
       try {
         const response = await axios.get('https://scriptatendimentoelo.onrender.com/api/frases');
-        setConteudo(response.data);
+        setConteudo(response.data.frases); // Acessa o array "frases" dentro da resposta
       } catch (error) {
         console.error('Erro ao buscar frases da API:', error);
       }
@@ -28,21 +29,38 @@ function Home() {
     fetchFrases();
   }, []);
 
+  // Função para copiar o texto para a área de transferência
+  const handleCopy = (texto) => {
+    navigator.clipboard.writeText(texto).then()
+      .catch((error) => {
+        console.error('Erro ao copiar o texto:', error);
+      });
+  };
+
   return (
     <section className="main">
       <h1>{cumprimento}! Bem-vindo ao Script de Atendimento da Elo.</h1>
-      <div>
-        {conteudo.map((frase, index) => (
-          <div key={index} style={{ marginBottom: '20px' }}>
-            <h3>{frase.titulo}</h3>
-            <p><strong>Autor:</strong> {frase.autor}</p>
-            <ul>
-              {frase.textos.map((texto, idx) => (
-                <li key={idx}>{texto}</li>
-              ))}
-            </ul>
-          </div>
-        ))}
+      <div className="myDivSection">
+        {conteudo.length > 0 ? (
+          conteudo.map((frase, index) => (
+            <div key={index} style={{ marginBottom: '20px' }}>
+              <h3>{frase.titulo}</h3>
+              {/* <p><strong>Autor:</strong> {frase.autor}</p> */}
+              <ul>
+                {frase.textos.map((texto, idx) => (
+                  <li key={idx}>
+                    {texto}
+                    <button onClick={() => handleCopy(texto)} className="copy-btn">
+                      <FaCopy />
+                    </button>
+                  </li>
+                ))}
+              </ul>
+            </div>
+          ))
+        ) : (
+          <p>Carregando conteúdo...</p>
+        )}
       </div>
       <Rolagem />
     </section>
