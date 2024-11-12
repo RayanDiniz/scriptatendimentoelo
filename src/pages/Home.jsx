@@ -29,10 +29,10 @@ function Home() {
   }, []);
 
   return (
-    <div>
-      <h1>{cumprimento}</h1>
+    <section className="main">
+      <h1>{cumprimento}! Bem-vindo ao Script de Atendimento da Elo.</h1>
       <Rolagem conteudo={conteudo} />
-    </div>
+    </section>
   );
 }
 
