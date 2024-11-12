@@ -31,7 +31,20 @@ function Home() {
   return (
     <section className="main">
       <h1>{cumprimento}! Bem-vindo ao Script de Atendimento da Elo.</h1>
-      <Rolagem conteudo={conteudo} />
+      <div>
+        {conteudo.map((frase, index) => (
+          <div key={index} style={{ marginBottom: '20px' }}>
+            <h3>{frase.titulo}</h3>
+            <p><strong>Autor:</strong> {frase.autor}</p>
+            <ul>
+              {frase.textos.map((texto, idx) => (
+                <li key={idx}>{texto}</li>
+              ))}
+            </ul>
+          </div>
+        ))}
+      </div>
+      <Rolagem />
     </section>
   );
 }
