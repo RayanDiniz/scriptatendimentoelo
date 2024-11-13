@@ -30,6 +30,7 @@ body {
   background-color: #48a7ff;
   text-align: center;
   color: aliceblue;
+  z-index: 99999;
 }.menu-sup nav{
   margin: 10px;
 }
@@ -40,7 +41,7 @@ body {
   color: #fff;
   padding: 1em;
   margin: 5px;
-  background-color: #333;
+  background-color: #585d83;
   text-decoration: none;
 }.menu-sup .guia:hover {
   padding: 25px;
@@ -80,6 +81,7 @@ h1 {
 }
 
 .myDivSection {
+  margin-top: 60px;
   margin-bottom: 20px;
 }
 
@@ -94,33 +96,49 @@ h1 {
 .myDivSection ul {
   margin: 0;
   padding: 0;
+  display: flex;
+  flex-direction: column;
 }
 .myDivSection ul li {
-  width: 400px;
+  position: relative;
+  width: 600px;
   background-color: azure;
   color: #333;
   font-family: 'Courier New', Courier, monospace;
-  display: inline-block;
+  justify-content: left;
+  display: inline;
   margin: 5px 0;
   border: solid 1px #333;
   border-radius: 0.5em;
   padding: 10px;
+  padding-right: 35px;
 }
 
+.btn-edite {
+  margin-left: 10px;
+  padding: 5px 10px;
+  background-color: #c4c4c4;
+  color: rgb(0, 0, 0);
+  border: solid #333 1px;
+  border-radius: 0.5em;
+  cursor: pointer;
+  text-decoration: none;
+}
 .copy-btn {
-  position: relative;
-  right: 0;
-  bottom: 0;
+  position: absolute;
+  bottom: 2px;
+  right: 2px;
   margin-left: 10px;
   padding: 5px 10px;
   background-color: #48a7ff;
   color: white;
   border: none;
-  border-radius: 5px;
+  border-radius: 0.5em;
   cursor: pointer;
 }
 
 .copy-btn:hover {
+  margin: 5px;
   padding: 7px 12px;
   background-color: #76bdff;
 }
@@ -131,18 +149,19 @@ h1 {
 }
 
 
-#nomeContainer {
+.form {
   position: absolute;
   top: 0;
   left: 0;
   right: 0;
   bottom: 0;
   display: flex;
+  flex-direction: column;
   justify-content: center;
   align-items: center;
 }
 
-.nomeform {
+.form-container {
   width: 320px;
   padding: 1em;
   border: #333 solid 2px;

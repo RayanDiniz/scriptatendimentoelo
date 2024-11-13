@@ -4,6 +4,7 @@ import Header from './components/Header';
 import Home from './pages/Home';
 import Protocolos from './pages/Protocolos';
 import AdicionarFrase from './pages/AdicionarFrase';
+import EditarFrase from './pages/EditarFrase';
 import './App.css';
 
 function App() {
@@ -14,6 +15,7 @@ function App() {
         <Route path="/" element={<Home />} />
         <Route path="/protocolos" element={<Protocolos />} />
         <Route path="/adicionar" element={<AdicionarFrase />} />
+        <Route path="/editar/:id" element={<EditarFrase />} />
       </Routes>
     </Router>
   );

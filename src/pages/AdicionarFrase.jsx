@@ -31,9 +31,9 @@ function AdicionarFrase() {
   };
 
   return (
-    <div>
+    <div className="form">
       <h1>Adicionar Nova Frase</h1>
-      <form onSubmit={handleSubmit}>
+      <form className="form-container" onSubmit={handleSubmit}>
         <div>
           <label>Titulo:</label>
           <input

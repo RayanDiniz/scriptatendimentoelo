@@ -2,26 +2,31 @@ import React from 'react';
 import { FaCopy } from 'react-icons/fa';
 
 const protocolos = [
-  "Protocolo 1: Texto do protocolo para abertura de chamado.",
+  "SEM CONEXÃO LINK LOSS:\n\
+  - Cliente sem conexão;\n\
+  - Feito reinicialização dos equipamentos porém problema persiste;\n\
+  - Verificado Led Los Piscando no modem de fibra após envio de vídeo pelo cliente;\n\
+  - Cliente ciente da taxa de R$ 100,00 caso seja identificado dano na fibra na parte interna do ponto;\n\
+\n\
+  - Contato: []",
   "Protocolo 2: Outro texto de protocolo para abertura de chamado.",
-  // Adicione outros protocolos aqui
+
 ];
 
 function Protocolos() {
   const handleCopy = (texto) => {
     navigator.clipboard.writeText(texto);
-    alert("Texto copiado!");
   };
 
   return (
-    <div>
+    <div className="myDivSection">
       <h1>Protocolos</h1>
       <ul>
         {protocolos.map((texto, index) => (
-          <li key={index}>
+          <li key={index} style={{ whiteSpace: 'pre-line' }}>
             {texto}
-            <button onClick={() => handleCopy(texto)}>
-              <FaCopy /> Copiar
+            <button className="copy-btn" onClick={() => handleCopy(texto)}>
+              <FaCopy />
             </button>
           </li>
         ))}
