@@ -2,12 +2,7 @@ import React from 'react';
 import { FaCopy } from 'react-icons/fa';
 
 const protocolos = [
-  "SEM CONEXÃO LINK LOSS:\n\
-  - Cliente sem conexão;\n\
-  - Feito reinicialização dos equipamentos porém problema persiste;\n\
-  - Verificado Led Los Piscando no modem de fibra após envio de vídeo pelo cliente;\n\
-  - Cliente ciente da taxa de R$ 100,00 caso seja identificado dano na fibra na parte interna do ponto;\n\
-  - Contato: []",
+  "SEM CONEXÃO LINK LOSS: - Cliente sem conexão; - Feito reinicialização dos equipamentos porém problema persiste; - Verificado Led Los Piscando no modem de fibra após envio de vídeo pelo cliente; - Cliente ciente da taxa de R$ 100,00 caso seja identificado dano na fibra na parte interna do ponto; - Contato: []",
   "Protocolo 2: Outro texto de protocolo para abertura de chamado."
 
 ];
