@@ -7,9 +7,8 @@ const protocolos = [
   - Feito reinicialização dos equipamentos porém problema persiste;\n\
   - Verificado Led Los Piscando no modem de fibra após envio de vídeo pelo cliente;\n\
   - Cliente ciente da taxa de R$ 100,00 caso seja identificado dano na fibra na parte interna do ponto;\n\
-\n\
   - Contato: []",
-  "Protocolo 2: Outro texto de protocolo para abertura de chamado.",
+  "Protocolo 2: Outro texto de protocolo para abertura de chamado."
 
 ];
 
