@@ -12,10 +12,10 @@ function ChatComponent() {
       const client = await Client.connect("rayandiniz/elo");
       const result = await client.predict("/chat", {
         message: input,
-        system_message: "Hello!!",
-        max_tokens: 1,
-        temperature: 0.1,
-        top_p: 0.1,
+        system_message: "You are a friendly Chatbot. Your name is Eloísa",
+        max_tokens: 1000,
+        temperature: 0.7,
+        top_p: 0.95,
       });
 
       setResponse(result.data); // Armazena a resposta no estado
@@ -29,11 +29,10 @@ function ChatComponent() {
 
   return (
     <div style={{ maxWidth: '400px', margin: '0 auto', padding: '20px', textAlign: 'center' }}>
-      <h2>Chat com Eloisa</h2>
+      <h2>Pergunte para a Eloísa.</h2>
       {response && (
-        <div style={{ marginTop: '20px', padding: '10px', background: '#f1f1f1', borderRadius: '5px' }}>
-          <h4>Resposta da Eloisa:</h4>
-          <p>{response}</p>
+        <div style={{ width: '100%', marginTop: '20px', padding: '10px', background: '#f1f1f1', borderRadius: '5px' }}>
+          <p className="typing-effect">{response}</p>
         </div>
       )}
       <textarea
