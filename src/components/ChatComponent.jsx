@@ -29,7 +29,13 @@ function ChatComponent() {
 
   return (
     <div style={{ maxWidth: '400px', margin: '0 auto', padding: '20px', textAlign: 'center' }}>
-      <h2>Chat com API</h2>
+      <h2>Chat com Eloisa</h2>
+      {response && (
+        <div style={{ marginTop: '20px', padding: '10px', background: '#f1f1f1', borderRadius: '5px' }}>
+          <h4>Resposta da Eloisa:</h4>
+          <p>{response}</p>
+        </div>
+      )}
       <textarea
         value={input}
         onChange={(e) => setInput(e.target.value)}
@@ -40,12 +46,6 @@ function ChatComponent() {
       <button onClick={handleSendMessage} disabled={isLoading} style={{ padding: '10px 20px', cursor: 'pointer' }}>
         {isLoading ? 'Carregando...' : 'Enviar'}
       </button>
-      {response && (
-        <div style={{ marginTop: '20px', padding: '10px', background: '#f1f1f1', borderRadius: '5px' }}>
-          <h4>Resposta da API:</h4>
-          <p>{response}</p>
-        </div>
-      )}
     </div>
   );
 }
