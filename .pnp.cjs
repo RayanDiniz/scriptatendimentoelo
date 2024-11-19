@@ -33,6 +33,7 @@ const RAW_RUNTIME_STATE =
           ["cra-template", "npm:1.2.0"],\
           ["crypto-browserify", "npm:3.12.1"],\
           ["eslint-config-react-app", "virtual:e8493545c80342a9d9a31558276a6e3df5bdeb6c4001208df88a2db579aec7733c55900f9093889acda4f79b5986c77c5f166b2140d9507c4458470c2b8b9c03#npm:7.0.1"],\
+          ["eslint-plugin-react", "virtual:e8493545c80342a9d9a31558276a6e3df5bdeb6c4001208df88a2db579aec7733c55900f9093889acda4f79b5986c77c5f166b2140d9507c4458470c2b8b9c03#npm:7.37.2"],\
           ["https-browserify", "npm:1.0.0"],\
           ["os-browserify", "npm:0.3.0"],\
           ["path-browserify", "npm:1.0.1"],\
@@ -8752,7 +8753,7 @@ const RAW_RUNTIME_STATE =
           ["eslint-plugin-import", "virtual:5e115e7cfc5a1622487b02f46aa55038c92d0a4060bdb7d48793f2d636173e98e786c96192d37068c74e09658f31ee6ba2133c94b8aa13c4fa7b04d6a932c068#npm:2.31.0"],\
           ["eslint-plugin-jest", "virtual:5e115e7cfc5a1622487b02f46aa55038c92d0a4060bdb7d48793f2d636173e98e786c96192d37068c74e09658f31ee6ba2133c94b8aa13c4fa7b04d6a932c068#npm:25.7.0"],\
           ["eslint-plugin-jsx-a11y", "virtual:5e115e7cfc5a1622487b02f46aa55038c92d0a4060bdb7d48793f2d636173e98e786c96192d37068c74e09658f31ee6ba2133c94b8aa13c4fa7b04d6a932c068#npm:6.10.2"],\
-          ["eslint-plugin-react", "virtual:5e115e7cfc5a1622487b02f46aa55038c92d0a4060bdb7d48793f2d636173e98e786c96192d37068c74e09658f31ee6ba2133c94b8aa13c4fa7b04d6a932c068#npm:7.37.2"],\
+          ["eslint-plugin-react", "virtual:e8493545c80342a9d9a31558276a6e3df5bdeb6c4001208df88a2db579aec7733c55900f9093889acda4f79b5986c77c5f166b2140d9507c4458470c2b8b9c03#npm:7.37.2"],\
           ["eslint-plugin-react-hooks", "virtual:5e115e7cfc5a1622487b02f46aa55038c92d0a4060bdb7d48793f2d636173e98e786c96192d37068c74e09658f31ee6ba2133c94b8aa13c4fa7b04d6a932c068#npm:4.6.2"],\
           ["eslint-plugin-testing-library", "virtual:5e115e7cfc5a1622487b02f46aa55038c92d0a4060bdb7d48793f2d636173e98e786c96192d37068c74e09658f31ee6ba2133c94b8aa13c4fa7b04d6a932c068#npm:5.11.1"],\
           ["typescript", null]\
@@ -9140,10 +9141,10 @@ const RAW_RUNTIME_STATE =
         ],\
         "linkType": "HARD"\
       }],\
-      ["virtual:5e115e7cfc5a1622487b02f46aa55038c92d0a4060bdb7d48793f2d636173e98e786c96192d37068c74e09658f31ee6ba2133c94b8aa13c4fa7b04d6a932c068#npm:7.37.2", {\
-        "packageLocation": "./.yarn/__virtual__/eslint-plugin-react-virtual-deebb7792b/2/.yarn/berry/cache/eslint-plugin-react-npm-7.37.2-9fdf577e3b-10c0.zip/node_modules/eslint-plugin-react/",\
+      ["virtual:e8493545c80342a9d9a31558276a6e3df5bdeb6c4001208df88a2db579aec7733c55900f9093889acda4f79b5986c77c5f166b2140d9507c4458470c2b8b9c03#npm:7.37.2", {\
+        "packageLocation": "./.yarn/__virtual__/eslint-plugin-react-virtual-f3502ebcb1/2/.yarn/berry/cache/eslint-plugin-react-npm-7.37.2-9fdf577e3b-10c0.zip/node_modules/eslint-plugin-react/",\
         "packageDependencies": [\
-          ["eslint-plugin-react", "virtual:5e115e7cfc5a1622487b02f46aa55038c92d0a4060bdb7d48793f2d636173e98e786c96192d37068c74e09658f31ee6ba2133c94b8aa13c4fa7b04d6a932c068#npm:7.37.2"],\
+          ["eslint-plugin-react", "virtual:e8493545c80342a9d9a31558276a6e3df5bdeb6c4001208df88a2db579aec7733c55900f9093889acda4f79b5986c77c5f166b2140d9507c4458470c2b8b9c03#npm:7.37.2"],\
           ["@types/eslint", null],\
           ["array-includes", "npm:3.1.8"],\
           ["array.prototype.findlast", "npm:1.2.5"],\
@@ -16486,6 +16487,7 @@ const RAW_RUNTIME_STATE =
           ["cra-template", "npm:1.2.0"],\
           ["crypto-browserify", "npm:3.12.1"],\
           ["eslint-config-react-app", "virtual:e8493545c80342a9d9a31558276a6e3df5bdeb6c4001208df88a2db579aec7733c55900f9093889acda4f79b5986c77c5f166b2140d9507c4458470c2b8b9c03#npm:7.0.1"],\
+          ["eslint-plugin-react", "virtual:e8493545c80342a9d9a31558276a6e3df5bdeb6c4001208df88a2db579aec7733c55900f9093889acda4f79b5986c77c5f166b2140d9507c4458470c2b8b9c03#npm:7.37.2"],\
           ["https-browserify", "npm:1.0.0"],\
           ["os-browserify", "npm:0.3.0"],\
           ["path-browserify", "npm:1.0.1"],\
