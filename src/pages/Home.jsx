@@ -4,6 +4,7 @@ import { Link } from 'react-router-dom';
 import Rolagem from '../components/Rolagem';
 import { FaCopy } from "react-icons/fa6";
 import ChatComponent from '../components/ChatComponent';
+import Lembrete from '../components/Lembrete';
 
 function Home() {
   const [conteudo, setConteudo] = useState([]);
@@ -43,6 +44,7 @@ function Home() {
     <section className="main">
       <h1>{cumprimento}! Bem-vindo ao Script de Atendimento da Elo.</h1>
       <ChatComponent />
+      <Lembrete />
       <div className="myDivSection">
         {conteudo.length > 0 ? (
           conteudo.map((frase) => (
