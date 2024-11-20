@@ -43,8 +43,10 @@ function Home() {
   return (
     <section className="main">
       <h1>{cumprimento}! Bem-vindo ao Script de Atendimento da Elo.</h1>
-      <ChatComponent />
-      <Lembrete />
+      <div className="ferramentas">
+        <ChatComponent />
+        <Lembrete />
+      </div>
       <div className="myDivSection">
         {conteudo.length > 0 ? (
           conteudo.map((frase) => (
