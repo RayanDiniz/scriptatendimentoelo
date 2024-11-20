@@ -74,7 +74,7 @@ function Lembrete() {
   };
 
   return (
-    <div style={{ maxWidth: '500px', margin: '20px auto', textAlign: 'center' }}>
+    <div className="Lembrete">
       <h2>Gerenciador de Lembretes</h2>
       <form onSubmit={adicionarLembrete} style={{ marginBottom: '20px' }}>
         <div style={{ marginBottom: '10px' }}>

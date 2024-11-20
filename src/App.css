@@ -8,6 +8,7 @@
   from {
     transform: rotate(0deg);
   }
+
   to {
     transform: rotate(360deg);
   }
@@ -21,37 +22,108 @@ body {
   background-attachment: fixed;
 }
 
-.menu-sup {
+.navbar {
   position: fixed;
   top: 0;
   left: 0;
   right: 0;
   height: 50px;
   background-color: #48a7ff;
-  text-align: center;
+  display: flex;
+
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px 20px;
+
   color: aliceblue;
   z-index: 99999;
-}.menu-sup nav{
-  margin: 10px;
 }
 
-.menu-sup .guia {
+.menu {
+  display: flex;
+  gap: 20px;
+}
+
+.guia {
   border: #333 solid 2px;
   border-radius: 10px;
-  color: #fff;
+  color: #000000;
   padding: 1em;
-  margin: 5px;
-  background-color: #585d83;
+  margin: 2px;
+  background-color: #85c0e2;
   text-decoration: none;
-}.menu-sup .guia:hover {
-  padding: 25px;
 }
 
-.menu-sup h1 {
+.guia:hover {
+  padding: 20px;
+}
+
+.menu h1 {
   margin: 5px;
   color: #fff;
   font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 }
+
+.notification {
+  position: relative;
+  cursor: pointer;
+}
+
+.notification .icon {
+  font-size: 24px;
+  color: white;
+}
+
+.notification .badge {
+  position: absolute;
+  top: 0;
+  right: 0;
+  background-color: red;
+  color: white;
+  border-radius: 50%;
+  padding: 2px 6px;
+  font-size: 12px;
+}
+
+/* Balão de notificações */
+.notification-popup {
+  position: absolute;
+  top: 40px;
+  right: 0;
+  background-color: white;
+  color: black;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
+  border-radius: 8px;
+  width: 300px;
+  display: none;
+  z-index: 10000;
+}
+
+.notification-popup.active {
+  display: block;
+}
+
+.notification-popup ul {
+  list-style: none;
+  margin: 0;
+  padding: 10px;
+}
+
+.notification-popup ul li {
+  padding: 10px;
+  border-bottom: 1px solid #ddd;
+  font-size: 14px;
+}
+
+.notification-popup ul li:last-child {
+  border-bottom: none;
+}
+
+.notification-popup ul li:hover {
+  background-color: #f4f4f4;
+}
+/*fim*/
+
 
 .scroll {
   position: fixed;
@@ -99,6 +171,7 @@ h1 {
   display: flex;
   flex-direction: column;
 }
+
 .myDivSection ul li {
   position: relative;
   width: 600px;
@@ -124,6 +197,7 @@ h1 {
   cursor: pointer;
   text-decoration: none;
 }
+
 .copy-btn {
   position: absolute;
   bottom: 2px;
@@ -171,6 +245,7 @@ h1 {
   from {
     width: 0;
   }
+
   to {
     width: 100%;
   }
@@ -180,7 +255,8 @@ h1 {
   display: block;
   overflow: hidden;
   white-space: nowrap;
-  border-right: 0.15em solid #000; /* A linha de cursor do tipo "digitando" */
+  border-right: 0.15em solid #000;
+  /* A linha de cursor do tipo "digitando" */
   animation: typing 2s steps(30) 1s 1 normal both, blink 0.45s step-end;
 }
 
@@ -193,6 +269,15 @@ h1 {
 .ChatBot {
   text-align: center;
   margin-top: 20px;
-}.ChatBot iframe #document .gradio-container{
-  background-color: #fff;
+}
+
+.ChatBot iframe {
+  width: 400px;
+  height: 400px;
+}
+
+.Lembrete {
+  max-width: '500px';
+  margin: '20px auto';
+  text-align: 'center';
 }
